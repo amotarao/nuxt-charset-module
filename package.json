@@ -1,7 +1,7 @@
 {
   "name": "nuxt-charset-module",
   "version": "0.0.0",
-  "main": "index.js",
+  "main": "lib/module.js",
   "repository": "git@github.com:amotarao/nuxt-charset-module.git",
   "author": "Amon Sawamura <amon.sawamura@gmail.com>",
   "license": "MIT",
