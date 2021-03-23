@@ -19,11 +19,26 @@ npm install --save-dev nuxt-charset-module
 yarn add nuxt-charset-module
 ```
 
+### Remove current charset
+
+```patch
+ // nuxt.config.js
+ 
+ export default {
+   head: {
+     meta: [
+-      { charset: 'utf-8' },
+     ],
+   },
+ };
+```
+
 
 ### Load Module
 
 ```js
 // nuxt.config.js
+
 export default {
   modules: [
     'nuxt-charset-module',
@@ -35,6 +50,8 @@ export default {
 ### Add Options
 
 ```js
+// nuxt.config.js
+
 export default {
   modules: [
     'nuxt-charset-module',
