@@ -5,6 +5,9 @@
   "repository": "git@github.com:amotarao/nuxt-charset-module.git",
   "author": "Amon Sawamura <amon.sawamura@gmail.com>",
   "license": "MIT",
+  "files": [
+    "lib"
+  ],
   "devDependencies": {
     "babel-eslint": "^10.1.0",
     "eslint": "^7.22.0",
