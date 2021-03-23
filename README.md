@@ -1,6 +1,12 @@
 # nuxt-charset-module
 
-inject `<meta charset="utf-8"/>` to first in `<head>`
+inject `<meta charset>` to first of `<head>`.
+
+
+## Why
+
+[https://web.dev/charset/](https://web.dev/charset/)
+> A `<meta charset>` element in the `<head>` of the document that is completely contained in the first 1024 bytes of the document
 
 
 ## Setup
