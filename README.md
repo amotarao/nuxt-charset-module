@@ -1,0 +1,1 @@
+# nuxt-charset-module
