@@ -41,13 +41,17 @@ yarn add nuxt-charset-module
 
 export default {
   modules: [
-    'nuxt-charset-module',
+    // 'other-module',
+    // 'other-module',
+    'nuxt-charset-module', // <- Insert to LAST!
   ],
 };
 ```
 
 
 ### Add Options
+
+If you use 'utf-8', You don't need to write this.
 
 ```js
 // nuxt.config.js
@@ -56,8 +60,21 @@ export default {
   modules: [
     'nuxt-charset-module',
   ],
-  charset: { // If you use 'utf-8', you can remove this.
+  charset: {
     charset: 'utf-8', // default
   },
+};
+
+// OR
+
+export default {
+  modules: [
+    [
+      'nuxt-charset-module',
+      {
+        charset: 'utf-8', // default
+      }
+    ],
+  ],
 };
 ```
