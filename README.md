@@ -41,7 +41,9 @@ yarn add nuxt-charset-module
 
 export default {
   modules: [
-    'nuxt-charset-module',
+    // 'other-module',
+    // 'other-module',
+    'nuxt-charset-module', // <- Insert to LAST!
   ],
 };
 ```
